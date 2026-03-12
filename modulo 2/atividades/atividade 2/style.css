@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    background-color: rgb(206, 255, 205);
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    color: rgb(8, 173, 5);
+}
+h2{
+    color: rgb(49, 85, 48);
+}
+h2#diferenciado {
+    text-align: center;
+    background-color: rgb(4, 109, 0);
+    color: aliceblue;
+}
+span{
+    color: red;
+}
