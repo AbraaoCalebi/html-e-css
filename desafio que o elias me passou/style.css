@@ -1,0 +1,71 @@
+
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    background-color: rgb(78, 78, 255);
+    font-family: "Inter", sans-serif;
+}
+
+div#dados {
+    background-color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 87vw;
+    height: 87vh;
+    border-radius: 5px;
+    padding: 30px;
+}
+
+h2 {
+    color: gray;
+    font-size: 1em;
+}
+
+td {
+    padding-right: 50px;
+}
+
+p {
+    margin-bottom: 1px;
+}
+
+input{
+    border-radius: 5px;
+    width: 350px;
+    height: 30px;
+}
+
+div#link {
+    background-color: rgb(78, 78, 255);
+    border-radius: 5px;
+    width: 280px;
+    height: 50px;
+
+    display: flex;              /* ativa o flex */
+    justify-content: center;    /* centraliza horizontal */
+    align-items: center;        /* centraliza vertical */
+
+    position: absolute;
+    bottom: 0;   /* encosta embaixo */
+    left: 0;     /* encosta à esquerda */
+
+    bottom: 140px;
+    left: 30px;
+}
+
+div#link > a {
+    display: flex;              /* permite centralizar o texto também */
+    width: 100%;
+    height: 100%;
+    justify-content: center;    /* centraliza horizontal */
+    align-items: center;        /* centraliza vertical */
+
+
+    color: white;
+    text-decoration: none;
+    font-family: "Inter", sans-serif;
+}
